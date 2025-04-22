@@ -1,0 +1,8 @@
+<Project>
+	<ItemGroup>
+		<PackageReference Update="Microsoft.Extensions.Hosting" Version="8.0.0" />
+		<PackageReference Update="Microsoft.Extensions.Options" Version="8.0.2" />
+		<PackageReference Update="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+		<PackageReference Update="RedLock.net" Version="2.3.2" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions"/>
+      <PackageReference Include="RedLock.net"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\src\PubSubSample.Abstractions\PubSubSample.Abstractions.csproj" />
+      <ProjectReference Include="..\src\PubSubSample\PubSubSample.csproj" />
+    </ItemGroup>
+
+</Project>
