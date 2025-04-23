@@ -18,6 +18,17 @@ public class EventBase : IEvent
 		FailCount = 0;
 		ModifiedAt = CreatedAt;
 	}
+	public EventBase(string id, string type, string correlationId, DateTimeOffset createdAt, EventStatus status,
+		int failCount, DateTimeOffset modifiedAt)
+	{
+		Id = id;
+		CorrelationId = correlationId;
+		Type = type;
+		CreatedAt = createdAt;
+		Status = status;
+		FailCount = failCount;
+		ModifiedAt = modifiedAt;
+	}
 	public string Id { get; init; }
 	public DateTimeOffset CreatedAt { get; init; }
 	public string CorrelationId { get; init; }
